@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Halfsies · Can you cut it exactly in half?</title>
+    <meta name="description" content="One swipe, one shape, closest to 50/50 wins. Five new shapes every day, then send the link and see if your friends can cut it fairer." />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <meta name="author" content="NVYLO" />
+    <meta name="application-name" content="Halfsies" />
+    <meta name="apple-mobile-web-app-title" content="Halfsies" />
+    <meta name="theme-color" content="#1d473c" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Halfsies" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:title" content="Halfsies · Can you cut it exactly in half?" />
+    <meta property="og:description" content="One swipe per shape. Five new shapes every day. Closest to 50/50 wins." />
+    <meta property="og:image" content="%VITE_SITE_URL%/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A paper shape on a green cutting mat, cut into a cream half and a red half: 49.8 and 50.2." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Halfsies · Can you cut it exactly in half?" />
+    <meta name="twitter:description" content="One swipe per shape. Five new shapes every day. Closest to 50/50 wins." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/og.png" />
+    <meta name="twitter:image:alt" content="A paper shape on a green cutting mat, cut into a cream half and a red half: 49.8 and 50.2." />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Self-hosted, preloaded: no third-party request, no late swap of the headline. -->
+    <link rel="preload" href="/fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Halfsies",
+        "description": "A daily browser game: cut five shapes as close to exactly half as you can, one swipe each, then challenge friends on the same shapes.",
+        "genre": ["Puzzle", "Skill"],
+        "gamePlatform": ["Web browser", "Mobile web"],
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "url": "%VITE_SITE_URL%/",
+        "image": "%VITE_SITE_URL%/og.png",
+        "publisher": { "@type": "Organization", "name": "NVYLO", "url": "https://www.nvylo.com" }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main style="padding: 24px; font-family: system-ui, sans-serif; color: #f4eedf; background: #1d473c; min-height: 100vh">
+        <h1>Halfsies</h1>
+        <p>Cut each shape exactly in half with a single swipe. Five new shapes every day, then challenge your friends to cut fairer.</p>
+        <p>Halfsies needs JavaScript to run. A game by NVYLO.</p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
